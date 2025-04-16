@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ - Emmanent</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand-green: #5a8671;
+      --text-dark: #1e1e1e;
+      --bg-light: #f5f5f5;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--brand-green);
+      color: white;
+      padding: 1rem 2rem;
+    }
+    header h1 {
+      font-size: 1.6rem;
+    }
+    .faq-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .faq {
+      margin-bottom: 1.5rem;
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+    }
+    .faq h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .faq p {
+      font-size: 1rem;
+    }
+    .whatsapp-link {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .whatsapp-link a {
+      background-color: var(--brand-green);
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: var(--brand-green);
+      color: white;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Frequently Asked Questions</h1>
+  </header>
+  <div class="faq-container">
+
+    <div class="faq">
+      <h3>How do I place an order?</h3>
+      <p>You can order directly via WhatsApp by clicking the Order button next to any product. We'll confirm your request and arrange delivery.</p>
+    </div>
+
+    <div class="faq">
+      <h3>What payment methods do you accept?</h3>
+      <p>We accept Mobile Money and Cash on Delivery in most areas of Accra.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Do you deliver outside Accra?</h3>
+      <p>Yes! We deliver nationwide in Ghana. Delivery fees may vary depending on your location.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Is there a warranty or return policy?</h3>
+      <p>We only sell brand-new, tested accessories. If there’s an issue with your product on delivery, reach out immediately for a replacement or refund.</p>
+    </div>
+
+    <div class="faq">
+      <h3>Can I buy in bulk or become a reseller?</h3>
+      <p>Yes, we offer wholesale prices for bulk purchases. Send us a message on WhatsApp to discuss reseller deals.</p>
+    </div>
+
+    <div class="whatsapp-link">
+      <a href="https://wa.me/233240314412?text=Hi%20Emmanent,%20I%20have%20a%20question">Chat with Us on WhatsApp</a>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 Emmanent. All rights reserved.</p>
+  </footer>
+</body>
+</html>
